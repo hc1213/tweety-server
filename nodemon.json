@@ -1,0 +1,15 @@
+{
+    "restaratable":"rs",
+    "ignore":[
+        "node_modules/**/node_modules",
+        ".git"
+    ],
+    "verbose":false,
+    
+    "env":{
+        "NODE_ENV":"development",
+        "PORT":"3000"
+    },
+    "ext":"js json",
+    "legacy-watch":false
+}
